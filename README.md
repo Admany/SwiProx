@@ -7,7 +7,7 @@
 ---
 
 ## What is SwiProx?
-SwiProx is a modern, feature-rich proximity chat mod for Minecraft Forge 1.20.1+ that brings immersive, realistic voice and text chat to your server. It supports:
+SwiProx is a modern, feature-rich proximity chat mod for Minecraft Forge 1.20.1+ that brings immersive, realistic text chat to your server. It supports:
 - Proximity-based chat (local, whisper, yell, global)
 - Cave echo, wind, and underwater effects
 - Anti-spam, cooldowns, and message distortion
@@ -73,7 +73,6 @@ SwiProx is a modern, feature-rich proximity chat mod for Minecraft Forge 1.20.1+
 
 ## Credits
 - Mod by Admany
-- Thanks to the Minecraft modding community and all addon/port contributors!
 - Special thanks to everyone who helps test, suggest features, or spread the word!
 
 ---
