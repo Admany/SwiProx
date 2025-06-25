@@ -17,31 +17,31 @@ SwiProx is a modern, feature-rich proximity chat mod for Minecraft Forge 1.20.1+
 ---
 
 ## Commands
-- `/swiprox proxy` — Switch to local (proximity) chat (50 blocks)
-- `/swiprox global` — Switch to global chat (all players)
-- `/swiprox default <proxy|global>` — Set default chat mode for the world
-- `/swiprox whisper <message>` — Send a whisper (10 blocks, with cooldown)
-- `/swiprox yell <message>` — Yell a message (100 blocks, with cooldown)
-- `/swiprox reload` — Reload config (OP only)
+- `/swiprox proxy` - Switch to local (proximity) chat (50 blocks)
+- `/swiprox global` - Switch to global chat (all players)
+- `/swiprox default <proxy|global>` - Set default chat mode for the world
+- `/swiprox whisper <message>`- Send a whisper (10 blocks, with cooldown)
+- `/swiprox yell <message>` - Yell a message (100 blocks, with cooldown)
+- `/swiprox reload` - Reload config (OP only)
 
 ---
 
 ## Config Options (in `SwiProxConfig`)
-- `whisperRadius` — How far whispers travel (default: 10)
-- `yellRadius` — How far yells travel (default: 100)
-- `maxProximityDistance` — Max range for local chat
-- `yellCooldownSeconds` — Cooldown for yells (default: 10s)
+- `whisperRadius` - How far whispers travel (default: 10)
+- `yellRadius` - How far yells travel (default: 100)
+- `maxProximityDistance`- Max range for local chat
+- `yellCooldownSeconds` - Cooldown for yells (default: 10s)
 - `caveEchoEnabled` — Enable/disable cave echo effects
 - `caveEchoLargeRepeat` / `caveEchoSmallRepeat` — Echo repeat count for caves
-- `underwaterEnabled` — Enable/disable underwater chat distortion
+- `underwaterEnabled` - Enable/disable underwater chat distortion
 - `windEffectStartY` / `windEffectMaxY` — Y-levels for wind effects
-- `distortion70CharReplaceChance`, `distortion70WordDropChance`, `distortion70UnderscoreChance` — Message distortion tuning
+- `distortion70CharReplaceChance`, `distortion70WordDropChance`, `distortion70UnderscoreChance` - Message distortion tuning
 - ...and more! See the config file for all options.
 
 ---
 
 ## Addons & Ports
-- **SwiProx Blocks Addon** — Adds support for custom cave/stone blocks via runtime registration (see below)
+- **SwiProx Blocks Addon** - Adds support for custom cave/stone blocks via runtime registration (see below)
 - Want a port to another platform? Open an issue or PR! I am happy to help with ports to Fabric, NeoForge, or other loaders.
 
 ### How to Add Custom Cave Blocks (for modders)
