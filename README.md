@@ -26,6 +26,16 @@ SwiProx is a modern, feature-rich proximity chat mod for Minecraft Forge 1.20.1+
 
 ---
 
+### OP-Only Global Chat Lock Commands
+- `/swiprox global lock` - Lock global chat. Only ops and allow-list can use global chat; others are forced to proxy mode.
+- `/swiprox global lock add <name>` - Add a player to the allow-list for global chat while locked.
+- `/swiprox global lock remove <name>` - Remove a player from the allow-list. If online, they are switched to proxy mode.
+- `/swiprox global lock unlock` - Unlock global chat for everyone.
+
+> **Note:** The above lock commands require OP (permission level 2+) in-game. If you are opped, you will see and be able to use these commands. These commands let you control who can use global chat when it is locked, and enforce chat mode changes instantly for affected players.
+
+---
+
 ## Config Options (in `SwiProxConfig`)
 - `whisperRadius` - How far whispers travel (default: 10)
 - `yellRadius` - How far yells travel (default: 100)
